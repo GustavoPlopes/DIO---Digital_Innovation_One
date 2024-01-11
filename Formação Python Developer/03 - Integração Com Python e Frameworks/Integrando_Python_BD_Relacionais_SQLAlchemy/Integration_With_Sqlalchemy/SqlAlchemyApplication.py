@@ -53,3 +53,6 @@ print(insp.has_table("user_account"))
 # Retorna nomes das tabelas
 print(insp.get_table_names())
 
+# Retorna o nome do banco de dados
+print(insp.default_schema_name)
+
