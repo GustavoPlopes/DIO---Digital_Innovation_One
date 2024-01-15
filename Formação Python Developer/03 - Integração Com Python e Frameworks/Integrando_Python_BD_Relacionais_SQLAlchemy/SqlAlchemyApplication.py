@@ -18,7 +18,7 @@ class User(Base):
     fullname = Column(String)
 
     address = relationship(
-        "Address", back_populates="user", cascade="all, delete-orphan"
+        "Address", back_populates="User", cascade="all, delete-orphan"
     )
 
     def __repr__(self):
